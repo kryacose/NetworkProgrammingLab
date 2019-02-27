@@ -5,7 +5,7 @@
 
 void *threadFun() 
 { 
-    printf("Thread ID: %d\n", (int)pthread_self()); 
+    printf("Thread ID: %ul\n", (int)pthread_self()); 
 }
 
 int main(){
